@@ -73,13 +73,13 @@ public class Ex7 {
             if (board[i] == board[i + 1] && board[i + 1] == board[i + 2]) {
                 return board[i];
             }
-            break;
+
         }
         for (int i = 0; i < board.length; i++) {
             if (board[i] == board[i + 3] && board[i + 3] == board[i + 6]) {
                 return board[i];
             }
-            break;
+
         }
         if ((board[0] == board[4] && board[4] == board[8]) || (board[2] == board[4] && board[4] == board[6])) {
             return board[4];
